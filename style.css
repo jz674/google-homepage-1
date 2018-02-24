@@ -41,52 +41,20 @@ a:active {
 }
 
 .header {
-  height: 50px;
+  min-width: 980px;
 }
 
-.header-navigation {
-  margin-top: 5px;
+.header-left {
+  float: left;
 }
 
-.header-navigation-left {
-  display: inline-block;
-  position: absolute;
-  height: 50px;
-  width: 300px;
-  left: 0px;
-  padding-top: 20px;
-  padding-left: 50px;
+.header-right {
+  float: right;
 }
 
-.header-navigation-right {
-  display: inline-block;
-  position: absolute;
-  height: 50px;
-  width: 300px;
-  right: 0px;
-  padding-top: 20px;
-}
-
-.header-navigation-left > ul > li {
-  padding-right: 10px;
-}
-
-.header-navigation-left > ul > li:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.header-navigation-right > ul > li {
-  margin-right: 10px;
-}
-
-.header-navigation-right > ul > li:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.main {
-
+.nav > li {
+  box-sizing: border-box;
+  padding: 20px 10px;
 }
 
 .main-image {
@@ -151,60 +119,28 @@ ul {
 }
 
 li {
-  padding: 0;
-  margin: 0;
   display: inline-block;
 }
 
 .footer {
-  color: rgb(102, 102, 102);
   position: absolute;
   bottom: 0;
+  color: rgb(102, 102, 102);
   background-color: rgb(242, 242, 242);
   height: 40px;
+  min-width: 980px;
   width: 100%;
 }
 
-.footer-navigation {
+.footer-left {
+  float: left;
 }
 
-.footer-navigation-left {
-  display: inline-block;
-  height: 40px;
-  width: 300px;
-  line-height: 40px;
-  margin-left: 60px;
+.footer-right {
+  float: right;
 }
 
-.footer-navigation-left > ul {
-}
-
-.footer-navigation-left > ul > li {
-  margin-right: 30px;
-}
-
-.footer-navigation-left > ul > li:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.footer-navigation-right {
-  position: absolute;
-  right: 0;
-  display: inline-block;
-  height: 40px;
-  line-height: 40px;
-}
-
-.footer-navigation-right  > ul {
-  margin-right: 30px;
-}
-
-.footer-navigation-right > ul > li {
-  padding-left: 27px;
-}
-
-.footer-navigation-right > ul > li:hover {
-  text-decoration: underline;
-  cursor: pointer;
+.footer-nav > li {
+  box-sizing: border-box;
+  margin: 14px 20px;
 }
